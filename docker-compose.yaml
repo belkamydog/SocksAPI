@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  pg:
+    image: postgres:latest
+    container_name: pg
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+      TZ: Europe/Moscow
+  socks:
+    build: ./SocksApi
+    container_name: socks
+    ports:
+      - "8080:8080"
+    depends_on:
+      - pg
+volumes:
+  db-data:
