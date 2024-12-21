@@ -1,0 +1,70 @@
+2024-12-21T22:31:50.955+03:00  INFO 57754 --- [socks] [main] com.api.socks.SocksApplication           : Starting SocksApplication using Java 21.0.1 with PID 57754 (/Users/artemefimov/Documents/GitHub/Java/Socks/SocksAPI/SocksApi/target/classes started by artemefimov in /Users/artemefimov/Documents/GitHub/Java/Socks/SocksAPI)
+2024-12-21T22:31:50.957+03:00  INFO 57754 --- [socks] [main] com.api.socks.SocksApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-12-21T22:31:52.487+03:00  INFO 57754 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-21T22:31:52.580+03:00  INFO 57754 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
+2024-12-21T22:31:53.328+03:00  INFO 57754 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-21T22:31:53.352+03:00  INFO 57754 --- [socks] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-21T22:31:53.352+03:00  INFO 57754 --- [socks] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-21T22:31:53.426+03:00  INFO 57754 --- [socks] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-21T22:31:53.427+03:00  INFO 57754 --- [socks] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2383 ms
+2024-12-21T22:31:53.656+03:00  INFO 57754 --- [socks] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-21T22:31:53.703+03:00  INFO 57754 --- [socks] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-21T22:31:53.722+03:00  INFO 57754 --- [socks] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-21T22:31:54.097+03:00  INFO 57754 --- [socks] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-21T22:31:54.150+03:00  INFO 57754 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-21T22:31:54.269+03:00  INFO 57754 --- [socks] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e94669c
+2024-12-21T22:31:54.272+03:00  INFO 57754 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-21T22:31:54.354+03:00  INFO 57754 --- [socks] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-21T22:31:55.008+03:00  INFO 57754 --- [socks] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-21T22:31:55.085+03:00  INFO 57754 --- [socks] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-21T22:31:55.439+03:00  INFO 57754 --- [socks] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-21T22:31:56.491+03:00  WARN 57754 --- [socks] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-21T22:31:57.136+03:00  INFO 57754 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-21T22:31:57.161+03:00  INFO 57754 --- [socks] [main] com.api.socks.SocksApplication           : Started SocksApplication in 6.997 seconds (process running for 7.645)
+2024-12-21T22:35:25.524+03:00  INFO 57754 --- [socks] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-21T22:35:25.583+03:00  INFO 57754 --- [socks] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-21T22:35:25.603+03:00  INFO 57754 --- [socks] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-21T22:35:25.625+03:00  INFO 57754 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-21T22:35:25.638+03:00  INFO 57754 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-21T22:35:32.564+03:00  INFO 57836 --- [socks] [main] com.api.socks.SocksApplication           : Starting SocksApplication using Java 21.0.1 with PID 57836 (/Users/artemefimov/Documents/GitHub/Java/Socks/SocksAPI/SocksApi/target/classes started by artemefimov in /Users/artemefimov/Documents/GitHub/Java/Socks/SocksAPI)
+2024-12-21T22:35:32.568+03:00  INFO 57836 --- [socks] [main] com.api.socks.SocksApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-12-21T22:35:34.064+03:00  INFO 57836 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-21T22:35:34.152+03:00  INFO 57836 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2024-12-21T22:35:34.877+03:00  INFO 57836 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-21T22:35:34.892+03:00  INFO 57836 --- [socks] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-21T22:35:34.893+03:00  INFO 57836 --- [socks] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-21T22:35:34.964+03:00  INFO 57836 --- [socks] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-21T22:35:34.964+03:00  INFO 57836 --- [socks] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2321 ms
+2024-12-21T22:35:35.191+03:00  INFO 57836 --- [socks] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-21T22:35:35.233+03:00  INFO 57836 --- [socks] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-21T22:35:35.252+03:00  INFO 57836 --- [socks] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-21T22:35:35.642+03:00  INFO 57836 --- [socks] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-21T22:35:35.700+03:00  INFO 57836 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-21T22:35:35.831+03:00  INFO 57836 --- [socks] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79d63a4f
+2024-12-21T22:35:35.833+03:00  INFO 57836 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-21T22:35:35.914+03:00  INFO 57836 --- [socks] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-21T22:35:36.537+03:00  INFO 57836 --- [socks] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-21T22:35:36.588+03:00  INFO 57836 --- [socks] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-21T22:35:36.908+03:00  INFO 57836 --- [socks] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-21T22:35:37.908+03:00  WARN 57836 --- [socks] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-21T22:35:38.590+03:00  INFO 57836 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-21T22:35:38.609+03:00  INFO 57836 --- [socks] [main] com.api.socks.SocksApplication           : Started SocksApplication in 6.806 seconds (process running for 7.438)
+2024-12-21T22:37:32.858+03:00  INFO 57836 --- [socks] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-21T22:37:32.962+03:00  INFO 57836 --- [socks] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-21T22:37:33.018+03:00  INFO 57836 --- [socks] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-21T22:37:33.071+03:00  INFO 57836 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-21T22:37:33.112+03:00  INFO 57836 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
