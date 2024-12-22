@@ -1,20 +1,20 @@
-2024-12-21T22:31:50.955+03:00  INFO 57754 --- [socks] [main] com.api.socks.SocksApplication           : Starting SocksApplication using Java 21.0.1 with PID 57754 (/Users/artemefimov/Documents/GitHub/Java/Socks/SocksAPI/SocksApi/target/classes started by artemefimov in /Users/artemefimov/Documents/GitHub/Java/Socks/SocksAPI)
-2024-12-21T22:31:50.957+03:00  INFO 57754 --- [socks] [main] com.api.socks.SocksApplication           : No active profile set, falling back to 1 default profile: "default"
-2024-12-21T22:31:52.487+03:00  INFO 57754 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-21T22:31:52.580+03:00  INFO 57754 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 1 JPA repository interface.
-2024-12-21T22:31:53.328+03:00  INFO 57754 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-21T22:31:53.352+03:00  INFO 57754 --- [socks] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-21T22:31:53.352+03:00  INFO 57754 --- [socks] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-21T22:31:53.426+03:00  INFO 57754 --- [socks] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-21T22:31:53.427+03:00  INFO 57754 --- [socks] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2383 ms
-2024-12-21T22:31:53.656+03:00  INFO 57754 --- [socks] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-21T22:31:53.703+03:00  INFO 57754 --- [socks] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-21T22:31:53.722+03:00  INFO 57754 --- [socks] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-21T22:31:54.097+03:00  INFO 57754 --- [socks] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-21T22:31:54.150+03:00  INFO 57754 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-21T22:31:54.269+03:00  INFO 57754 --- [socks] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4e94669c
-2024-12-21T22:31:54.272+03:00  INFO 57754 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-21T22:31:54.354+03:00  INFO 57754 --- [socks] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-22T02:58:44.097+03:00  INFO 73009 --- [socks] [main] com.api.socks.SocksApplication           : Starting SocksApplication using Java 17.0.13 with PID 73009 (/Users/artemefimov/Downloads/socks 4/build/classes/java/main started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T02:58:44.100+03:00  INFO 73009 --- [socks] [main] com.api.socks.SocksApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T02:58:45.549+03:00  INFO 73009 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T02:58:45.626+03:00  INFO 73009 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2024-12-22T02:58:46.478+03:00  INFO 73009 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-22T02:58:46.494+03:00  INFO 73009 --- [socks] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-22T02:58:46.495+03:00  INFO 73009 --- [socks] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-22T02:58:46.566+03:00  INFO 73009 --- [socks] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-22T02:58:46.566+03:00  INFO 73009 --- [socks] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2360 ms
+2024-12-22T02:58:46.803+03:00  INFO 73009 --- [socks] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T02:58:46.872+03:00  INFO 73009 --- [socks] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-22T02:58:46.903+03:00  INFO 73009 --- [socks] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T02:58:47.216+03:00  INFO 73009 --- [socks] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T02:58:47.254+03:00  INFO 73009 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-22T02:58:47.376+03:00  INFO 73009 --- [socks] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26d40c77
+2024-12-22T02:58:47.378+03:00  INFO 73009 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-22T02:58:47.462+03:00  INFO 73009 --- [socks] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 15.4
@@ -22,34 +22,36 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-21T22:31:55.008+03:00  INFO 57754 --- [socks] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-21T22:31:55.085+03:00  INFO 57754 --- [socks] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-21T22:31:55.439+03:00  INFO 57754 --- [socks] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-12-21T22:31:56.491+03:00  WARN 57754 --- [socks] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-21T22:31:57.136+03:00  INFO 57754 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-21T22:31:57.161+03:00  INFO 57754 --- [socks] [main] com.api.socks.SocksApplication           : Started SocksApplication in 6.997 seconds (process running for 7.645)
-2024-12-21T22:35:25.524+03:00  INFO 57754 --- [socks] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-21T22:35:25.583+03:00  INFO 57754 --- [socks] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-21T22:35:25.603+03:00  INFO 57754 --- [socks] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-21T22:35:25.625+03:00  INFO 57754 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-21T22:35:25.638+03:00  INFO 57754 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2024-12-21T22:35:32.564+03:00  INFO 57836 --- [socks] [main] com.api.socks.SocksApplication           : Starting SocksApplication using Java 21.0.1 with PID 57836 (/Users/artemefimov/Documents/GitHub/Java/Socks/SocksAPI/SocksApi/target/classes started by artemefimov in /Users/artemefimov/Documents/GitHub/Java/Socks/SocksAPI)
-2024-12-21T22:35:32.568+03:00  INFO 57836 --- [socks] [main] com.api.socks.SocksApplication           : No active profile set, falling back to 1 default profile: "default"
-2024-12-21T22:35:34.064+03:00  INFO 57836 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-12-21T22:35:34.152+03:00  INFO 57836 --- [socks] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
-2024-12-21T22:35:34.877+03:00  INFO 57836 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2024-12-21T22:35:34.892+03:00  INFO 57836 --- [socks] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-12-21T22:35:34.893+03:00  INFO 57836 --- [socks] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
-2024-12-21T22:35:34.964+03:00  INFO 57836 --- [socks] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-12-21T22:35:34.964+03:00  INFO 57836 --- [socks] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2321 ms
-2024-12-21T22:35:35.191+03:00  INFO 57836 --- [socks] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-12-21T22:35:35.233+03:00  INFO 57836 --- [socks] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
-2024-12-21T22:35:35.252+03:00  INFO 57836 --- [socks] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2024-12-21T22:35:35.642+03:00  INFO 57836 --- [socks] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-12-21T22:35:35.700+03:00  INFO 57836 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2024-12-21T22:35:35.831+03:00  INFO 57836 --- [socks] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@79d63a4f
-2024-12-21T22:35:35.833+03:00  INFO 57836 --- [socks] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2024-12-21T22:35:35.914+03:00  INFO 57836 --- [socks] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2024-12-22T02:58:48.179+03:00  INFO 73009 --- [socks] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T02:58:48.236+03:00  INFO 73009 --- [socks] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T02:58:48.538+03:00  INFO 73009 --- [socks] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-22T02:58:49.382+03:00  WARN 73009 --- [socks] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T02:58:49.429+03:00  INFO 73009 --- [socks] [main] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T02:58:49.912+03:00  INFO 73009 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-22T02:58:49.931+03:00  INFO 73009 --- [socks] [main] com.api.socks.SocksApplication           : Started SocksApplication in 6.511 seconds (process running for 7.136)
+2024-12-22T02:59:24.152+03:00  INFO 73009 --- [socks] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-22T02:59:24.154+03:00  INFO 73009 --- [socks] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-22T02:59:24.177+03:00  INFO 73009 --- [socks] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 23 ms
+2024-12-22T02:59:24.423+03:00  INFO 73009 --- [socks] [http-nio-8080-exec-1] c.api.socks.service.RepositoryService    : successfully  uploaded from csv [white, 10, 1]
+2024-12-22T02:59:24.428+03:00  INFO 73009 --- [socks] [http-nio-8080-exec-1] c.api.socks.service.RepositoryService    : successfully  uploaded from csv [yellow, 33, 2]
+2024-12-22T02:59:24.430+03:00  INFO 73009 --- [socks] [http-nio-8080-exec-1] c.api.socks.service.RepositoryService    : successfully  uploaded from csv [violate, 100, 3]
+2024-12-22T02:59:34.269+03:00  INFO 73009 --- [socks] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-22T02:59:34.300+03:00  INFO 73009 --- [socks] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-22T02:59:34.313+03:00  INFO 73009 --- [socks] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T02:59:34.321+03:00  INFO 73009 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-22T02:59:34.327+03:00  INFO 73009 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-22T03:02:38.459+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:38.464+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:39.788+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:39.853+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:40.510+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:40.550+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-22T03:02:40.589+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:40.866+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:40.898+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-22T03:02:41.001+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@545604a9
+2024-12-22T03:02:41.003+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-22T03:02:41.079+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 15.4
@@ -57,14 +59,402 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2024-12-21T22:35:36.537+03:00  INFO 57836 --- [socks] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-12-21T22:35:36.588+03:00  INFO 57836 --- [socks] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-12-21T22:35:36.908+03:00  INFO 57836 --- [socks] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
-2024-12-21T22:35:37.908+03:00  WARN 57836 --- [socks] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-21T22:35:38.590+03:00  INFO 57836 --- [socks] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2024-12-21T22:35:38.609+03:00  INFO 57836 --- [socks] [main] com.api.socks.SocksApplication           : Started SocksApplication in 6.806 seconds (process running for 7.438)
-2024-12-21T22:37:32.858+03:00  INFO 57836 --- [socks] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2024-12-21T22:37:32.962+03:00  INFO 57836 --- [socks] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2024-12-21T22:37:33.018+03:00  INFO 57836 --- [socks] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-12-21T22:37:33.071+03:00  INFO 57836 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2024-12-21T22:37:33.112+03:00  INFO 57836 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-22T03:02:41.746+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:41.808+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:42.102+03:00  INFO 73094 --- [socks] [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-12-22T03:02:42.966+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:43.019+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:43.541+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:43.542+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:43.543+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-22T03:02:43.592+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 5.526 seconds (process running for 7.248)
+2024-12-22T03:02:43.621+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:43.623+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-22T03:02:43.627+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-22T03:02:43.699+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:43.700+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:44.146+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:44.175+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:44.323+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:44.328+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:44.353+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:44.354+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-12-22T03:02:44.369+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1a48f55b
+2024-12-22T03:02:44.370+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-12-22T03:02:44.374+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:44.433+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:44.444+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:44.689+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:44.721+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:44.961+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:44.962+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:44.963+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-22T03:02:44.982+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 1.349 seconds (process running for 8.639)
+2024-12-22T03:02:45.995+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"green","cotton":44,"count":34}
+2024-12-22T03:02:46.142+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {color=green} = 34
+2024-12-22T03:02:46.191+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:46.195+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-12-22T03:02:46.199+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-12-22T03:02:46.302+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:46.306+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:46.586+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:46.604+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:46.719+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:46.726+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:46.751+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:46.753+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2024-12-22T03:02:46.765+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@45339f9
+2024-12-22T03:02:46.765+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2024-12-22T03:02:46.772+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:46.840+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:46.854+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:46.974+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:46.992+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:47.173+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:47.174+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:47.177+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-22T03:02:47.194+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.989 seconds (process running for 10.85)
+2024-12-22T03:02:47.225+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"black","cotton":50,"count":2}
+2024-12-22T03:02:47.253+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : REMOVE 2 SOCKS WITH ID 0
+2024-12-22T03:02:47.261+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {} = 0
+2024-12-22T03:02:47.279+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:47.285+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2024-12-22T03:02:47.287+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2024-12-22T03:02:47.326+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:47.327+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:47.517+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:47.530+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:47.621+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:47.629+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:47.641+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:47.643+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2024-12-22T03:02:47.653+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@5c4b230c
+2024-12-22T03:02:47.654+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2024-12-22T03:02:47.659+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:47.698+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:47.708+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:47.821+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:47.841+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:48.012+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:48.013+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:48.014+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-12-22T03:02:48.026+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.736 seconds (process running for 11.682)
+2024-12-22T03:02:48.048+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"black","cotton":50,"count":1}
+2024-12-22T03:02:48.055+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {} = 1
+2024-12-22T03:02:48.063+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":0,"color":"black","cotton":50,"count":1}
+2024-12-22T03:02:48.066+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {} = 2
+2024-12-22T03:02:48.076+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:48.080+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2024-12-22T03:02:48.095+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2024-12-22T03:02:48.139+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:48.140+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:48.278+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:48.287+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:48.337+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:48.341+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:48.359+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:48.361+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2024-12-22T03:02:48.368+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@591e5480
+2024-12-22T03:02:48.368+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2024-12-22T03:02:48.371+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:48.423+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:48.433+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:48.544+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:48.568+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:48.690+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:48.690+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:48.691+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-12-22T03:02:48.701+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.602 seconds (process running for 12.357)
+2024-12-22T03:02:48.716+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"black","cotton":50,"count":2}
+2024-12-22T03:02:48.722+03:00 ERROR 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : CAN'T REMOVE 5 SOCKS WITH ID 0
+2024-12-22T03:02:48.731+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:48.731+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2024-12-22T03:02:48.756+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2024-12-22T03:02:48.782+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:48.782+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:48.959+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:48.969+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:49.024+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:49.030+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:49.043+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:49.045+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2024-12-22T03:02:49.053+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@25daa0a0
+2024-12-22T03:02:49.053+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2024-12-22T03:02:49.055+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:49.093+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:49.102+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:49.223+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:49.240+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:49.371+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:49.371+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:49.371+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-22T03:02:49.383+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.623 seconds (process running for 13.039)
+2024-12-22T03:02:49.416+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"green","cotton":44,"count":34}
+2024-12-22T03:02:49.423+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":2,"color":"red","cotton":42,"count":30}
+2024-12-22T03:02:49.494+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {color=green,red} = 64
+2024-12-22T03:02:49.507+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:49.508+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2024-12-22T03:02:49.525+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2024-12-22T03:02:49.561+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:49.562+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:49.951+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:49.983+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:50.093+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:50.100+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:50.126+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:50.129+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2024-12-22T03:02:50.145+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@21a87972
+2024-12-22T03:02:50.145+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2024-12-22T03:02:50.151+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:50.200+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:50.210+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:50.335+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:50.352+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:50.489+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:50.492+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:50.495+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2024-12-22T03:02:50.535+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 1.005 seconds (process running for 14.191)
+2024-12-22T03:02:50.588+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"green","cotton":44,"count":34}
+2024-12-22T03:02:50.611+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":2,"color":"red","cotton":42,"count":30}
+2024-12-22T03:02:50.653+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {cotton=gt:40 and lt:50} = 64
+2024-12-22T03:02:50.677+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:50.683+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2024-12-22T03:02:50.686+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2024-12-22T03:02:50.769+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:50.770+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:51.023+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:51.034+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:51.110+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:51.115+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:51.132+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:51.134+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-12-22T03:02:51.146+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@1229de5e
+2024-12-22T03:02:51.146+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-12-22T03:02:51.151+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:51.199+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:51.212+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:51.324+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:51.352+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:51.524+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:51.525+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:51.526+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2024-12-22T03:02:51.542+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.85 seconds (process running for 15.198)
+2024-12-22T03:02:51.560+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"green","cotton":44,"count":34}
+2024-12-22T03:02:51.570+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":2,"color":"red","cotton":42,"count":30}
+2024-12-22T03:02:51.577+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {cotton=gt:40} = 64
+2024-12-22T03:02:51.589+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:51.590+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-12-22T03:02:51.603+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-12-22T03:02:51.633+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:51.634+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:51.747+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:51.763+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:51.844+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:51.848+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:51.862+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:51.863+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-12-22T03:02:51.871+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@408708d5
+2024-12-22T03:02:51.871+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-12-22T03:02:51.874+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:51.923+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:51.935+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:52.023+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:52.039+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:52.158+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:52.159+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:52.159+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-22T03:02:52.172+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.567 seconds (process running for 15.828)
+2024-12-22T03:02:52.191+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"green","cotton":44,"count":34}
+2024-12-22T03:02:52.202+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":2,"color":"red","cotton":42,"count":30}
+2024-12-22T03:02:52.215+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {color=green} = 34
+2024-12-22T03:02:52.227+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:52.227+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-12-22T03:02:52.263+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-12-22T03:02:52.306+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:52.307+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:52.428+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:52.436+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:52.483+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:52.487+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:52.499+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:52.501+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-12-22T03:02:52.508+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@2271265b
+2024-12-22T03:02:52.508+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-12-22T03:02:52.511+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:52.565+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:52.572+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:52.664+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:52.681+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:52.811+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:52.812+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:52.812+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-22T03:02:52.822+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.556 seconds (process running for 16.478)
+2024-12-22T03:02:52.836+03:00 ERROR 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : CAN'T FIND SOCKS WITH ID 0 FOR REMOVE
+2024-12-22T03:02:52.844+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:52.845+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-12-22T03:02:52.884+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-12-22T03:02:52.917+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:52.918+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:53.054+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:53.065+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:53.111+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:53.117+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:53.126+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:53.127+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-12-22T03:02:53.135+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection org.postgresql.jdbc.PgConnection@3997dd6a
+2024-12-22T03:02:53.135+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-12-22T03:02:53.138+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-11)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:53.183+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:53.192+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:53.272+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:53.288+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:53.579+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:53.587+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:53.587+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-22T03:02:53.600+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.712 seconds (process running for 17.256)
+2024-12-22T03:02:53.636+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"black","cotton":50,"count":34}
+2024-12-22T03:02:53.648+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {} = 34
+2024-12-22T03:02:53.662+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:53.666+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2024-12-22T03:02:53.701+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2024-12-22T03:02:53.752+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:53.753+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:53.942+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:53.967+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:54.084+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:54.092+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:54.110+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:54.111+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Starting...
+2024-12-22T03:02:54.124+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-12 - Added connection org.postgresql.jdbc.PgConnection@79bd2d87
+2024-12-22T03:02:54.124+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Start completed.
+2024-12-22T03:02:54.129+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:54.198+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:54.207+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:54.316+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:54.335+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:54.456+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:54.457+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:54.457+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-22T03:02:54.469+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.765 seconds (process running for 18.125)
+2024-12-22T03:02:54.546+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"black","cotton":50,"count":34}
+2024-12-22T03:02:54.606+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : FIND SOCKS WITH ID1 {"id":1,"color":"black","cotton":50,"count":34}
+2024-12-22T03:02:54.652+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":2,"color":"white","cotton":55,"count":100}
+2024-12-22T03:02:54.662+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : FIND SOCKS WITH ID2 {"id":2,"color":"white","cotton":55,"count":100}
+2024-12-22T03:02:54.697+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:54.701+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown initiated...
+2024-12-22T03:02:54.705+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-12 - Shutdown completed.
+2024-12-22T03:02:54.797+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Starting SocksApplicationTests using Java 17.0.13 with PID 73094 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:02:54.799+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:02:55.023+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-22T03:02:55.037+03:00  INFO 73094 --- [socks] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2024-12-22T03:02:55.122+03:00  INFO 73094 --- [socks] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-22T03:02:55.128+03:00  INFO 73094 --- [socks] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-22T03:02:55.152+03:00  INFO 73094 --- [socks] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-22T03:02:55.153+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Starting...
+2024-12-22T03:02:55.165+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-13 - Added connection org.postgresql.jdbc.PgConnection@327fa66a
+2024-12-22T03:02:55.165+03:00  INFO 73094 --- [socks] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Start completed.
+2024-12-22T03:02:55.174+03:00  INFO 73094 --- [socks] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-13)']
+	Database driver: undefined/unknown
+	Database version: 15.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-22T03:02:55.243+03:00  INFO 73094 --- [socks] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-22T03:02:55.255+03:00  INFO 73094 --- [socks] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:55.374+03:00  WARN 73094 --- [socks] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-22T03:02:55.394+03:00  INFO 73094 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:02:55.572+03:00  INFO 73094 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:02:55.573+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:02:55.573+03:00  INFO 73094 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-12-22T03:02:55.586+03:00  INFO 73094 --- [socks] [Test worker] com.api.socks.SocksApplicationTests      : Started SocksApplicationTests in 0.869 seconds (process running for 19.242)
+2024-12-22T03:02:55.611+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : ADD {"id":1,"color":"green","cotton":44,"count":34}
+2024-12-22T03:02:55.629+03:00  INFO 73094 --- [socks] [Test worker] c.api.socks.service.RepositoryService    : COUNT OF SOCKS WITH FILTER {cotton=eq:44, color=green} = 34
+2024-12-22T03:02:55.688+03:00  INFO 73094 --- [socks] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-22T03:02:55.688+03:00  INFO 73094 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown initiated...
+2024-12-22T03:02:55.690+03:00  INFO 73094 --- [socks] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-13 - Shutdown completed.
+2024-12-22T03:03:49.044+03:00  INFO 73254 --- [socks] [Test worker] c.a.s.controller.SocksControllerTest     : Starting SocksControllerTest using Java 17.0.13 with PID 73254 (started by artemefimov in /Users/artemefimov/Downloads/socks 4)
+2024-12-22T03:03:49.046+03:00  INFO 73254 --- [socks] [Test worker] c.a.s.controller.SocksControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2024-12-22T03:03:51.644+03:00  INFO 73254 --- [socks] [Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2024-12-22T03:03:52.185+03:00  INFO 73254 --- [socks] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2024-12-22T03:03:52.186+03:00  INFO 73254 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-12-22T03:03:52.195+03:00  INFO 73254 --- [socks] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2024-12-22T03:03:52.276+03:00  INFO 73254 --- [socks] [Test worker] c.a.s.controller.SocksControllerTest     : Started SocksControllerTest in 3.666 seconds (process running for 5.41)
