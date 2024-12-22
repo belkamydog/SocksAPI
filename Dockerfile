@@ -1,4 +1,4 @@
-FROM gradle:jdk21-corretto-al2023
+FROM gradle:jdk17-corretto
 
 WORKDIR /SocksApi
 COPY . .
