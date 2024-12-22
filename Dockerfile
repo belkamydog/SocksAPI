@@ -1,6 +1,6 @@
-FROM gradle:jdk8-corretto-al2023
+FROM gradle:jdk21-corretto-al2023
 
 WORKDIR /SocksApi
 COPY . .
-RUN gradle -Dskip.tests build
+RUN ./gradlew clean build -x test
 CMD ./gradlew bootRun
