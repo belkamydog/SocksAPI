@@ -1,4 +1,4 @@
-FROM ubuntu:jammy
+FROM gradle:jdk8-corretto-al2023
 
 WORKDIR /SocksApi
 COPY . .
